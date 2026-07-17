@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#0E0E0B;--bg2:#16150F;--surface:#1A1811;--surface2:#221F16;--ink:#F5EFE3;--muted:#A79B87;--gold:#E89620;--gold2:#F4B24C;--line:#2C281E;--line2:rgba(232,150,32,.28);--ok:#25a37a;--err:#e0745c}
+  :root{--bg:#F7F5F0;--bg2:#FFFFFF;--surface:#FFFFFF;--surface2:#F3F0E9;--ink:#17150F;--muted:#8A8377;--gold:#17150F;--gold2:#3A362B;--line:#E6E2D9;--line2:rgba(23,21,15,.18);--ok:#2F7A5A;--err:#B23A2C}
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
   button{font-family:inherit;cursor:pointer;border:none}
@@ -16,7 +16,7 @@
   a{color:var(--gold)}
 
   .login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
-  .login{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:36px 32px;width:100%;max-width:380px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .login{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:36px 32px;width:100%;max-width:380px;box-shadow:0 20px 60px rgba(0,0,0,.10)}
   .login img{width:80px;height:80px;border-radius:50%;border:1.5px solid var(--line2);object-fit:cover;margin:0 auto 16px;display:block}
   .login h1{font-family:'Cormorant Garamond',serif;font-size:28px;color:var(--gold);text-align:center;margin-bottom:4px}
   .login p{text-align:center;color:var(--muted);font-size:13px;margin-bottom:24px}
@@ -25,7 +25,7 @@
   .field input,.field textarea,.field select{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:14px;color:var(--ink);background:var(--bg2);outline:none;transition:border-color .15s}
   .field input:focus,.field textarea:focus,.field select:focus{border-color:var(--gold)}
   .field select{cursor:pointer}
-  .btn{width:100%;padding:13px;background:var(--gold);color:#171309;border-radius:10px;font-size:14.5px;font-weight:600;transition:background .15s}
+  .btn{width:100%;padding:13px;background:var(--gold);color:#F7F5F0;border-radius:10px;font-size:14.5px;font-weight:600;transition:background .15s}
   .btn:hover{background:var(--gold2)}
   .btn:disabled{opacity:.6;cursor:not-allowed}
   .msg{font-size:13px;padding:10px 12px;border-radius:8px;margin-top:12px;display:none}
@@ -104,7 +104,7 @@
   .promo-types{display:grid;grid-template-columns:1fr 1fr;gap:7px}
   .promo-types button{padding:11px 10px;border:1px solid var(--line);border-radius:10px;background:var(--bg2);color:var(--ink);font-size:12.5px;font-weight:500;text-align:left;line-height:1.3}
   .promo-types button small{display:block;color:var(--muted);font-size:10.5px;margin-top:2px}
-  .promo-types button.on{border-color:var(--gold);background:rgba(232,150,32,.08)}
+  .promo-types button.on{border-color:var(--gold);background:rgba(23,21,15,.08)}
   .promo-types button.on b{color:var(--gold)}
   .prodpick{max-height:180px;overflow-y:auto;border:1px solid var(--line);border-radius:10px;background:var(--bg2);padding:6px}
   .prodpick label{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:7px;font-size:13px;cursor:pointer}
@@ -116,7 +116,7 @@
   .promo-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
   .promo-card.off{opacity:.55}
   .promo-card .pc-top{display:flex;align-items:center;gap:8px;margin-bottom:5px}
-  .promo-badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:100px;background:var(--gold);color:#171309;letter-spacing:.03em}
+  .promo-badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:100px;background:var(--gold);color:#F7F5F0;letter-spacing:.03em}
   .promo-card h4{font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--ink);flex:1}
   .promo-card .pc-desc{font-size:12.5px;color:var(--muted);margin-bottom:8px}
   .promo-card .pc-meta{font-size:11.5px;color:var(--muted)}
